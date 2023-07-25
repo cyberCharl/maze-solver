@@ -6,7 +6,7 @@ from enum import IntEnum, auto
 
 class Role(IntEnum):
 
-    ONE = 0
+    NONE = 0
     ENEMY = auto()
     ENTRANCE = auto()
     EXIT = auto()
